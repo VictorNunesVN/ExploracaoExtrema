@@ -1,0 +1,69 @@
+@import '/assets/style/variaveis.css';
+
+body {
+  background-color: var(--cor-fundoClaro);
+}
+
+main {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  line-height: 30px;
+}
+
+.introServicos {
+  padding-bottom: 50px;
+}
+
+.servicos{
+  line-height: 35px;
+  margin-bottom:3rem;
+  padding: 1rem;
+}
+
+.tit {
+  font-family: var(--fonte-destaque);
+  font-size: 40px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.tit__introServ {
+  font-family: var(--fonte-texto);
+  font: 30px;
+}
+
+.pacotes {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid var(--cor-secundaria);
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: var(--cor-fundoClaro2);
+}
+
+.tit__servicos {
+  font-family: var(--fonte-destaque);
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.text__servicos {
+  font-family: var(--fonte-texto);
+  font-size: 20px;
+}
+.divImg {
+  padding: 2rem;
+}
+
+.img {
+  border-radius: 50px;
+  margin-left: 1rem;
+  box-shadow: 6px 6px 3px var(--cor-secundaria);  
+}
