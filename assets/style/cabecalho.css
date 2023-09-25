@@ -1,0 +1,25 @@
+@import '/assets/style/cabecalho.css';
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-principal)
+}
+
+.menu__itens {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: var(--cor-principal);
+}
+
+.menu__item-link{
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+    font-size: 25px;
+    color: black;
+}
+
+:hover.menu__item-link{
+    color: var(--cor-secundaria);
+    font-weight: bolder;
+}

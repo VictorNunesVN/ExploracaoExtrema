@@ -1,0 +1,60 @@
+@import "/assets/style/variaveis.css";
+
+.opcs {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.titServicos {
+    font-family: var(--fonte-destaque);
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.opcServicos1 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+}
+
+.opcImg {
+    border-radius: 50px;
+    box-shadow: 6px 6px 3px var(--cor-secundaria);
+}
+
+.titOpc {
+    font-size: 30px;
+    font-family: var(--fonte-texto);
+}
+
+.resumoServicos {
+    background-color: var(--cor-secServicos);
+    padding: 20px;
+}
+
+.opcServicos2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+}
+
+.opcServicos3 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+}
+
+.opcServicos4 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+}

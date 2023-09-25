@@ -1,0 +1,29 @@
+@import '/assets/style/variaveis.css';
+
+.introducao {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-texto);
+    padding-bottom: 50px;
+}
+
+.slogan {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.introducao__txt {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: var(--fonte-texto);
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}

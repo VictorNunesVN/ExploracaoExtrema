@@ -1,0 +1,33 @@
+@import '/assets/style/variaveis.css';
+
+body {
+  background-color: var(--cor-fundoClaro);
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.tit {
+  font-family: var(--fonte-destaque);
+  font-size: 40px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.empresa {
+ margin-left: 10rem;
+ margin-right: 10rem;
+ line-height: 30px;
+ padding-bottom: 50px;
+}
+
+p , ul {
+  font-family: var(--fonte-texto);
+  font: 25px;
+}
+li {
+  padding: 1rem;
+}
+
