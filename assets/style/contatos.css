@@ -1,0 +1,11 @@
+@import '/assets/style/variaveis.css';
+
+body {
+    background-color: var(--cor-fundoClaro);
+}
+
+main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 30px;
+  }

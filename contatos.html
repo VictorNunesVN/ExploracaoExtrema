@@ -3,57 +3,63 @@
 <!--OBS: O SITE NÃO ESTÁ RESPONSIVO-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/reset.css">
-    <link rel="stylesheet" href="assets/style/cabecalho.css">
-    <link rel="stylesheet" href="assets/style/secIntroducao.css">
-    <link rel="stylesheet" href="assets/style/resumoServicos.css">
-    <link rel="stylesheet" href="assets/style/rodape.css">
-    <!--<script defer src="assets/js/script.js"></script>-->
-    <link rel="shortcut icon" href="assets/image/iconeBruto.ico" type="image/x-icon">
-    <title>Exploração Extrema - Turismo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/style/reset.css">
+  <link rel="stylesheet" href="assets/style/cabecalho.css">
+  <link rel="stylesheet" href="assets/style/secIntroducao.css">
+  <link rel="stylesheet" href="assets/style/resumoServicos.css">
+  <link rel="stylesheet" href="assets/style/contatos.css">
+  <link rel="stylesheet" href="assets/style/rodape.css">
+  <!--<script defer src="assets/js/script.js"></script>-->
+  <link rel="shortcut icon" href="assets/image/iconeBruto.ico" type="image/x-icon">
+  <title>Exploração Extrema - Turismo</title>
 </head>
 <header class="cabecalho">
-    <nav class="menu">
-        <div class="logo"><img src="assets/image/logo2.png"
-                alt="Logo em forma de desenho de montanha e sob escrito Exploração Extrema"></div>
-        <ul class="menu__itens">
-            <li class="menu__item"><a class="menu__item-link" href="/index.html">Home</a></li>
-            <li class="menu__item"><a class="menu__item-link" href="/sobre.html">Sobre a Exploração Extrema</a></li>
-            <li class="menu__item"><a class="menu__item-link" href="/servicos.html">Serviços</a></li>
-            <li class="menu__item"><a class="menu__item-link" href="#">Contato</a></li>
-        </ul>
-    </nav>
+  <nav class="menu">
+    <div class="logo"><img src="assets/image/logo2.png"
+        alt="Logo em forma de desenho de montanha e sob escrito Exploração Extrema"></div>
+    <ul class="menu__itens">
+      <li class="menu__item"><a class="menu__item-link" href="/index.html">Home</a></li>
+      <li class="menu__item"><a class="menu__item-link" href="/sobre.html">Sobre a Exploração Extrema</a></li>
+      <li class="menu__item"><a class="menu__item-link" href="/servicos.html">Serviços</a></li>
+      <li class="menu__item"><a class="menu__item-link" href="#">Contato</a></li>
+    </ul>
+  </nav>
 </header>
 
 <body>
 
-    <main>
-        <form method="post">
-            <div>
-              <label for="nome">Nome:</label>
-              <input type="text" id="nome" />
-            </div>
-            <div>
-              <label for="email">E-mail:</label>
-              <input type="email" id="email" />
-            </div>
-            <div>
-              <label for="msg">Mensagem:</label>
-              <textarea id="msg"></textarea>
-            </div>
-          </form>
-    </main>
+  <main>
+    <form class="formulario" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" />
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" />
+      </div>
+      <div>
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg" placeholder="Mensagem"></textarea>
+      </div>
+      <button class="btnEnviar" type="submit">Enviar</button>
+    </form>
+  </main>
+  <footer class="rodape">
+    <a href="index.html"><img src="assets/image/logoTeste.png"
+        alt="Logo em forma de desenho de montanha e ao lado escrito Exploração Extrema"></a>
+  </footer>
 
 </body>
-
-<footer class="rodape">
-    <a href="index.html"><img src="assets/image/logoTeste.png"
-            alt="Logo em forma de desenho de montanha e ao lado escrito Exploração Extrema"></a>
-</footer>
-
 </html>
