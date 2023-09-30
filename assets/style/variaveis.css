@@ -1,11 +1,13 @@
 :root{
+    /*Cores*/
     --cor-principal: #f19d69;
-    --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-texto: 'Raleway', sans-serif;
     --cor-secundaria:#8A6650;
     --cor-terciaria: #D9491C;
     --cor-secServicos: #EB9763;
     --cor-bgFooter: #8A4D2D;
     --cor-fundoClaro:#ddb8a3;
     --cor-fundoClaro2:#ddc8bb;
+    /*Fontes*/
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-texto: 'Raleway', sans-serif;
 }

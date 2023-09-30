@@ -8,4 +8,56 @@ main {
     margin-left: 10rem;
     margin-right: 10rem;
     line-height: 30px;
-  }
+}
+
+.titulo{
+    font-family: var(--fonte-destaque);
+    font-size: 30px;
+}
+
+.rotulo{
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+}
+
+.entrada::placeholder {
+    font-family: var(--fonte-texto)
+}
+
+.entradaMensagem{
+    font-family: var(--fonte-texto);
+    margin-left: 5px;
+}
+
+.formulario {
+    background-color: var(--cor-fundoClaro2);
+    margin: 3rem;
+    border: 10px solid var(--cor-secundaria);
+    padding: 2rem;
+    border-radius: calc(30px - 10px);
+    /*borda arrendondada por fora e por dentro*/
+}
+
+.campoText {
+    height: 100px !important;
+}
+
+.btnEnter {
+    background-color: var(--cor-principal);
+    border-color: var(--cor-secundaria);
+    font-family: var(--fonte-texto);
+    color: black;
+}
+.btnEnter:hover{
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-terciaria);
+    font-family: var(--fonte-texto);
+    color: black;
+}
+
+.btnEnter:active{
+    background-color: var(--cor-secundaria) !important;
+    border-color: var(--cor-terciaria) !important;
+    font-family: var(--fonte-texto);
+    color: black;
+}
