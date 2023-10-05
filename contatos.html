@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/style/contatos.css">
   <link rel="stylesheet" href="assets/style/rodape.css">
   <!--<script defer src="assets/js/script.js"></script>-->
-  <!-- <script defer src="assets/js/cep.js"></script>  -->
+  <script defer src="assets/js/cep.js"></script> 
   <link rel="shortcut icon" href="assets/image/iconeBruto.ico" type="image/x-icon">
   <title>Exploração Extrema - Turismo</title>
 </head>
@@ -60,24 +60,34 @@
 
       <div class="col-12">
         <label for="endereco" class="rotulo fw-bolder form-label">Endereço</label>
-        <input id="cep" type="text" class="entrada form-control" placeholder="Seu endereço" required id="endereco">
+        <input type="text" class="entrada form-control" placeholder="Seu endereço" required disabled id="endereco" value="">
+      </div>
+
+      <div class="col-md-6">
+        <label for="bairro" class="rotulo fw-bolder form-label">Bairro</label>
+        <input type="text" class="entrada form-control" placeholder="Seu bairro" required disabled id="bairro" value="">
+      </div>
+
+      <div class="col-12">
+        <label for="complemento" class="rotulo fw-bolder form-label">Complemento</label>
+        <input id="cep" type="text" class="entrada form-control" placeholder="núm/sem núm ,apto, bloco, casa" required  id="complemento">
       </div>
 
       <div class="col-md-6">
         <label for="cidade" class="rotulo fw-bolder form-label">Cidade</label>
-        <input type="text" class="entrada form-control" placeholder="Sua cidade" required id="cidade">
+        <input type="text" class="entrada form-control" placeholder="Sua cidade" required disabled id="cidade" value="">
       </div>
 
       <div class="col-md-4">
-        <label for="estado" class="rotulo fw-bolder form-label">Estado</label>
-        <input type="text" class="entrada form-control" placeholder="Seu estado" required id="cidade">
+        <label for="estado" class="rotulo fw-bolder form-label">UF</label>
+        <input type="text" class="entrada form-control" placeholder="Seu estado" required disabled id="estado" value="">
       </div>
       
 
 
       <label for="mensagem" class="rotulo fw-bolder form-label">Mensagem</label>
       <div class="form-floating">
-        <textarea class="campoText form-control" id="mensagem"></textarea>
+        <textarea class="entradaMensagem campoText form-control" id="mensagem"></textarea>
         <label class="entradaMensagem" for="entrada  floatingTextarea">Sua mensagem</label>
       </div>
 

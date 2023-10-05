@@ -20,12 +20,16 @@ main {
     font-size: 20px;
 }
 
+.entrada {
+    font-family: var(--fonte-texto);
+}
+
 .entrada::placeholder {
     font-family: var(--fonte-texto)
 }
 
 .entradaMensagem{
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-texto) !important;
     margin-left: 5px;
 }
 

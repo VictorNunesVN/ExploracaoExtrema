@@ -1,0 +1,12 @@
+{
+  "name": "exploracaoextrema",
+  "version": "1.0.0",
+  "description": "Site de portfolio com tema de sugestão do curso de JavaScript do SenacRJ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Nunes",
+  "license": "MIT",
+  "type": "module"
+}
