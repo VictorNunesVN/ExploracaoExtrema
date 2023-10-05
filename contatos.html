@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/style/contatos.css">
   <link rel="stylesheet" href="assets/style/rodape.css">
   <!--<script defer src="assets/js/script.js"></script>-->
+  <script defer src="assets/js/cep.js"></script> 
   <link rel="shortcut icon" href="assets/image/iconeBruto.ico" type="image/x-icon">
   <title>Exploração Extrema - Turismo</title>
 </head>
@@ -51,9 +52,15 @@
         <input type="email" class="entrada form-control" placeholder="Seu email" required id="email">
       </div>
 
+      <div class="col-md-2">
+        <label for="cep" class="rotulo fw-bolder form-label">CEP</label>
+        <input type="text" class="entrada form-control" placeholder="Seu CEP" required id="cep">
+        
+      </div>
+
       <div class="col-12">
         <label for="endereco" class="rotulo fw-bolder form-label">Endereço</label>
-        <input type="text" class="entrada form-control" placeholder="Seu endereço" required id="endereco">
+        <input id="cep" type="text" class="entrada form-control" placeholder="Seu endereço" required id="endereco">
       </div>
 
       <div class="col-md-6">
@@ -65,10 +72,7 @@
         <label for="estado" class="rotulo fw-bolder form-label">Estado</label>
         <input type="text" class="entrada form-control" placeholder="Seu estado" required id="cidade">
       </div>
-      <div class="col-md-2">
-        <label for="cep" class="rotulo fw-bolder form-label">CEP</label>
-        <input type="text" class="entrada form-control" placeholder="Seu CEP" required id="cep">
-      </div>
+      
 
 
       <label for="mensagem" class="rotulo fw-bolder form-label">Mensagem</label>
